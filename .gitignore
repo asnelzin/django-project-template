@@ -1,0 +1,6 @@
+.*
+*.py[co]
+*.css.map
+!.gitkeep
+!.gitignore
+*/settings/local.py
