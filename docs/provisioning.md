@@ -1,6 +1,6 @@
-# Server Provisioning
+## Server Provisioning
 
-## Overview
+### Overview
 
 {{ project_name|title }} is deployed on the following stack.
 
