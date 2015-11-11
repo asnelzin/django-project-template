@@ -13,7 +13,7 @@ Every developer, as every armorsmith, must have his own tool. This is mine.
 ## Usage
 
 ```
-django-admin.py startproject --template=https://github.com/asnelzin/django-project-template/zipball/master --extension=py,md <project_name>
+django-admin.py startproject --template=https://github.com/asnelzin/django-template/zipball/master --extension=py,md <project_name>
 ```
 
 
