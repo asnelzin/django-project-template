@@ -5,18 +5,12 @@ from .base import *
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-INSTALLED_APPS += (
-    'debug_toolbar',
-)
-
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SOUTH_TESTS_MIGRATE = False
-
-CELERY_ALWAYS_EAGER = True
-CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
-
-COMPRESS_ENABLED = False
+# CELERY_ALWAYS_EAGER = True
+# CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
+#
+# COMPRESS_ENABLED = False
 
 # Special test settings
 if 'test' in sys.argv:
